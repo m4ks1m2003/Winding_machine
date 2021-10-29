@@ -80,7 +80,7 @@ void Winding (int diam, int turns) {
   int DELAY_STEPS1=10;
   int DELAY_STEPS2=20;
   
-  int STEP_ROUND=200*turns;
+  int STEP_ROUND=200;
 
   lcd.clear();              
   lcd.print("Turns: "); 
