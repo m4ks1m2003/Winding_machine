@@ -34,9 +34,7 @@ int TURNS = 0;
 
 void loop() { 
   lcd.clear();
-  lcd.print("Apply template?");
-  lcd.setCursor(0,1);
-  lcd.print("Yes(*) / NO(#)");
+  lcd.print("Turns?");
   TURNS = Serial.read();
   Winding (10,TURNS); 
 }
